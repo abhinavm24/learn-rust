@@ -1,7 +1,11 @@
 # Rust Learning Plan
 *Following "The Rust Programming Language" Book*
 
-## Notes are stored in `notes/` directory.
+## Chapter Notes
+Detailed notes for each chapter are stored in the `notes/` directory:
+
+- [Chapter 0: Introduction](notes/chapter-00.md)
+- [Chapter 1: Getting Started](notes/chapter-01.md)
 
 ## Phase 1: Getting Started (Chapters 1-3)
 - [x] Chapter 1: Installation & Hello World
