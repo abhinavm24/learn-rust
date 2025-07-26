@@ -7,15 +7,16 @@ Detailed notes for each chapter are stored in the `notes/` directory:
 - [Chapter 0: Introduction](notes/chapter-00.md)
 - [Chapter 1: Getting Started](notes/chapter-01.md)
 - [Chapter 2: Programming a Guessing Game](notes/chapter-02.md)
-- [Chapter 3.1: Common Programming Concepts]()
+- [Chapter 3: Common Programming Concepts]()
   - [Chapter 3.1: Variables & Mutability](notes/chapter-03-01.md)
+  - [Chapter 3.2: Data Types](notes/chapter-03-02.md)
 
 ## Phase 1: Getting Started (Chapters 1-3)
 - [x] Chapter 1: Installation & Hello World
 - [x] Chapter 2: Programming a Guessing Game
 - [x] Chapter 3: Common Programming Concepts
   - [x] Variables and Mutability
-  - [ ] Data Types
+  - [x] Data Types
   - [ ] Functions
   - [ ] Comments
   - [ ] Control Flow
@@ -69,11 +70,11 @@ Detailed notes for each chapter are stored in the `notes/` directory:
 
 **Practice Projects:**
 - CLI tool with proper error handling
-- Multi-threaded file processor
+- Multithreaded file processor
 - Simple HTTP client
 
 ## Phase 5: Advanced Topics (Chapters 17-20)
-- [ ] Chapter 17: Object Oriented Programming Features of Rust
+- [ ] Chapter 17: Object-Oriented Programming Features of Rust
 - [ ] Chapter 18: Patterns and Matching
 - [ ] Chapter 19: Advanced Features
 - [ ] Chapter 20: Final Project: Building a Multithreaded Web Server
