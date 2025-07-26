@@ -1,6 +1,6 @@
-use std::io;
-use std::cmp::Ordering;
 use rand::Rng;
+use std::cmp::Ordering;
+use std::io;
 
 fn main() {
     println!("Guess the number!");
@@ -30,7 +30,7 @@ fn main() {
                 println!("Secret num is: {secret_number}");
                 println!("You win!");
                 break;
-            },
+            }
         }
     }
 }
