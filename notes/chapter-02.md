@@ -8,6 +8,8 @@
 - Adding external crates: `rand = "0.8.5"` in `[dependencies]`
 - `cargo build` downloads dependencies and compiles
 - `cargo run` builds and executes in one step
+- `cargo doc --open` generates and opens documentation for dependencies
+- `cargo update` updates dependencies to latest compatible versions
 
 ### Variables and Mutability
 - `let` declares immutable variables by default
