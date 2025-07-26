@@ -68,5 +68,7 @@
 - https://github.com/rust-lang/book/tree/main/src
 - https://doc.rust-lang.org/rust-by-example/
 
+Official Chapter: https://doc.rust-lang.org/book/foreword.html
+
 ---
 *Completed: ✓*

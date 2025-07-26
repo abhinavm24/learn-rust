@@ -66,5 +66,7 @@
 - `cargo add rand@0.8.5 trpl@0.2.0` to pre-download dependencies
 - `--offline` flag for offline builds
 
+Official Chapter: https://doc.rust-lang.org/book/ch01-00-getting-started.html
+
 ---
 *Completed: ✓*

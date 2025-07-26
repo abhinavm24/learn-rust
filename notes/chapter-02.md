@@ -179,5 +179,7 @@ let guess: u32 = guess.trim().parse().expect("Please type a number!");
 
 Rust Prelude: https://doc.rust-lang.org/std/prelude/index.html
 
+Official Chapter: https://doc.rust-lang.org/book/ch02-00-guessing-game-tutorial.html
+
 ---
 *Completed: ✓*

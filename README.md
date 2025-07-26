@@ -7,12 +7,14 @@ Detailed notes for each chapter are stored in the `notes/` directory:
 - [Chapter 0: Introduction](notes/chapter-00.md)
 - [Chapter 1: Getting Started](notes/chapter-01.md)
 - [Chapter 2: Programming a Guessing Game](notes/chapter-02.md)
+- [Chapter 3.1: Common Programming Concepts]()
+  - [Chapter 3.1: Variables & Mutability](notes/chapter-03-01.md)
 
 ## Phase 1: Getting Started (Chapters 1-3)
 - [x] Chapter 1: Installation & Hello World
-- [ ] Chapter 2: Programming a Guessing Game
-- [ ] Chapter 3: Common Programming Concepts
-  - [ ] Variables and Mutability
+- [x] Chapter 2: Programming a Guessing Game
+- [x] Chapter 3: Common Programming Concepts
+  - [x] Variables and Mutability
   - [ ] Data Types
   - [ ] Functions
   - [ ] Comments
