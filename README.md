@@ -10,6 +10,7 @@ Detailed notes for each chapter are stored in the `notes/` directory:
 - [Chapter 3: Common Programming Concepts]()
   - [Chapter 3.1: Variables & Mutability](notes/chapter-03-01.md)
   - [Chapter 3.2: Data Types](notes/chapter-03-02.md)
+  - [Chapter 3.3: Functions](notes/chapter-03-03.md)
 
 ## Phase 1: Getting Started (Chapters 1-3)
 - [x] Chapter 1: Installation & Hello World
@@ -17,7 +18,7 @@ Detailed notes for each chapter are stored in the `notes/` directory:
 - [x] Chapter 3: Common Programming Concepts
   - [x] Variables and Mutability
   - [x] Data Types
-  - [ ] Functions
+  - [x] Functions
   - [ ] Comments
   - [ ] Control Flow
 
