@@ -12,6 +12,7 @@ Detailed notes for each chapter are stored in the `notes/` directory:
   - [Chapter 3.2: Data Types](notes/chapter-03-02.md)
   - [Chapter 3.3: Functions](notes/chapter-03-03.md)
   - [Chapter 3.4: Comments](notes/chapter-03-04.md)
+  - [Chapter 3.5: Control Flow](notes/chapter-03-05.md)
 
 ## Phase 1: Getting Started (Chapters 1-3)
 - [x] Chapter 1: Installation & Hello World
@@ -21,7 +22,7 @@ Detailed notes for each chapter are stored in the `notes/` directory:
   - [x] Data Types
   - [x] Functions
   - [x] Comments
-  - [ ] Control Flow
+  - [x] Control Flow
 
 **Practice Projects:**
 - Simple calculator
