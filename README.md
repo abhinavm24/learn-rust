@@ -11,6 +11,7 @@ Detailed notes for each chapter are stored in the `notes/` directory:
   - [Chapter 3.1: Variables & Mutability](notes/chapter-03-01.md)
   - [Chapter 3.2: Data Types](notes/chapter-03-02.md)
   - [Chapter 3.3: Functions](notes/chapter-03-03.md)
+  - [Chapter 3.4: Comments](notes/chapter-03-04.md)
 
 ## Phase 1: Getting Started (Chapters 1-3)
 - [x] Chapter 1: Installation & Hello World
@@ -19,7 +20,7 @@ Detailed notes for each chapter are stored in the `notes/` directory:
   - [x] Variables and Mutability
   - [x] Data Types
   - [x] Functions
-  - [ ] Comments
+  - [x] Comments
   - [ ] Control Flow
 
 **Practice Projects:**
