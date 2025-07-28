@@ -1,0 +1,2 @@
+- [AI with rust](https://www.arewelearningyet.com)
+  - https://github.com/anowell/are-we-learning-yet

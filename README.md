@@ -1,37 +1,29 @@
 # Rust Learning Plan
 *Following "The Rust Programming Language" Book*
 
-## Chapter Notes
-Detailed notes for each chapter are stored in the `notes/` directory:
+## Learning Progress
 
-- [Chapter 0: Introduction](notes/chapter-00.md)
-- [Chapter 1: Getting Started](notes/chapter-01.md)
-- [Chapter 2: Programming a Guessing Game](notes/chapter-02.md)
-- [Chapter 3: Common Programming Concepts]()
-  - [Chapter 3.1: Variables & Mutability](notes/chapter-03-01.md)
-  - [Chapter 3.2: Data Types](notes/chapter-03-02.md)
-  - [Chapter 3.3: Functions](notes/chapter-03-03.md)
-  - [Chapter 3.4: Comments](notes/chapter-03-04.md)
-  - [Chapter 3.5: Control Flow](notes/chapter-03-05.md)
+Detailed notes for each chapter are stored in the `notes/` directory and linked within each phase below.
 
 ## Phase 1: Getting Started (Chapters 1-3)
-- [x] Chapter 1: Installation & Hello World
-- [x] Chapter 2: Programming a Guessing Game
+- [x] [Chapter 0: Introduction](notes/chapter-00.md)
+- [x] [Chapter 1: Getting Started](notes/chapter-01.md) - Installation & Hello World
+- [x] [Chapter 2: Programming a Guessing Game](notes/chapter-02.md)
 - [x] Chapter 3: Common Programming Concepts
-  - [x] Variables and Mutability
-  - [x] Data Types
-  - [x] Functions
-  - [x] Comments
-  - [x] Control Flow
+  - [x] [Variables and Mutability](notes/chapter-03-01.md)
+  - [x] [Data Types](notes/chapter-03-02.md)
+  - [x] [Functions](notes/chapter-03-03.md)
+  - [x] [Comments](notes/chapter-03-04.md)
+  - [x] [Control Flow](notes/chapter-03-05.md)
 
 **Practice Projects:**
-- Simple calculator
-- Temperature converter
-- FizzBuzz implementation
+- [ ] Simple calculator
+- [ ] Temperature converter
+- [ ] FizzBuzz implementation
 
 ## Phase 2: Understanding Ownership (Chapters 4-6)
-- [ ] Chapter 4: Understanding Ownership
-  - [ ] What is Ownership?
+- [x] Chapter 4: Understanding Ownership
+  - [x] [What is Ownership?](notes/chapter-04-01.md)
   - [ ] References and Borrowing
   - [ ] The Slice Type
 - [ ] Chapter 5: Using Structs to Structure Related Data
