@@ -1,4 +1,4 @@
-use rust_book_examples::{print_chapter_header, ownership_examples::*};
+use rust_book_examples::print_chapter_header;
 
 fn main() {
     print_chapter_header("Chapter 4.1", "What is Ownership?");
@@ -85,4 +85,62 @@ fn main() {
     // 1. Each value in Rust has a variable that's called its owner
     // 2. There can only be one owner at a time
     // 3. When the owner goes out of scope, the value will be dropped
+}
+
+// === OWNERSHIP DEMONSTRATION FUNCTIONS ===
+
+/// Takes ownership of a String and prints it
+/// 
+/// This function demonstrates:
+/// - Taking ownership of heap-allocated data (String)
+/// - What happens when a value is moved into a function
+/// - Automatic cleanup when the owner goes out of scope
+/// 
+/// After calling this function, the original variable is no longer valid
+/// because ownership has been transferred.
+fn takes_ownership(some_string: String) {
+    println!("takes_ownership received: {}", some_string);
+    // some_string goes out of scope here and `drop` is called
+    // The memory is automatically freed
+}
+
+/// Takes a copy of an integer and prints it
+/// 
+/// This function demonstrates:
+/// - The Copy trait for stack-allocated data
+/// - Why simple types like i32 can be used after being passed to functions
+/// - The difference between Copy and Move semantics
+/// 
+/// Types that implement Copy:
+/// - All integer types (i32, u32, etc.)
+/// - Boolean type (bool)
+/// - Floating point types (f64, etc.)
+/// - Character type (char)
+/// - Tuples containing only Copy types
+fn makes_copy(some_integer: i32) {
+    println!("makes_copy received: {}", some_integer);
+    // some_integer goes out of scope, but since i32 implements Copy,
+    // no special cleanup is needed and the original variable remains valid
+}
+
+/// Creates a String and returns ownership to the caller
+/// 
+/// This function demonstrates:
+/// - How functions can create and transfer ownership
+/// - Return value ownership transfer
+/// - Creating heap-allocated data within a function
+fn gives_ownership() -> String {
+    let some_string = String::from("yours"); // Create a new String
+    some_string // Return ownership to the calling function
+}
+
+/// Takes ownership of a String and returns it back
+/// 
+/// This function demonstrates:
+/// - Taking ownership through parameters
+/// - Returning ownership through return values
+/// - The pattern of "taking and giving back" ownership
+fn takes_and_gives_back(a_string: String) -> String {
+    println!("takes_and_gives_back received: {}", a_string);
+    a_string // Return ownership to the calling function
 }
