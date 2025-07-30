@@ -1,4 +1,8 @@
+use rust_book_examples::print_chapter_header;
+
 fn main() {
+    print_chapter_header("Chapter 3.5", "Control Flow");
+    
     let number = 6;
 
     if number < 10 {

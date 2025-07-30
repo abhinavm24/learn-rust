@@ -1,9 +1,40 @@
 # Rust Learning Plan
 *Following "The Rust Programming Language" Book*
 
+## Project Structure
+
+```
+learn/
+├── Cargo.toml              # Single project configuration
+├── src/lib.rs             # Shared utilities and common code
+├── examples/              # All chapter code as runnable examples
+│   ├── ch02_guessing_game.rs
+│   ├── ch03_01_variables.rs
+│   ├── ch04_01_ownership.rs
+│   └── ...
+└── notes/                 # Comprehensive chapter notes
+    ├── INDEX.md          # Master index with cross-references
+    ├── NEXT_STEPS.md     # Learning roadmap and tasks
+    └── chapter-*.md      # Detailed notes for each chapter
+```
+
+## Running Examples
+
+```bash
+# Run specific chapter
+cargo run --example ch04_01_ownership
+cargo run --example ch02_guessing_game
+
+# Fast syntax checking while coding
+cargo check --example ch04_01_ownership
+
+# List all examples
+cargo run --example
+```
+
 ## Learning Progress
 
-Detailed notes for each chapter are stored in the `notes/` directory and linked within each phase below.
+Detailed notes for each chapter are in `notes/` - see [INDEX.md](notes/INDEX.md) for navigation.
 
 ## Phase 1: Getting Started (Chapters 1-3)
 - [x] [Chapter 0: Introduction](notes/chapter-00.md)
@@ -16,74 +47,40 @@ Detailed notes for each chapter are stored in the `notes/` directory and linked 
   - [x] [Comments](notes/chapter-03-04.md)
   - [x] [Control Flow](notes/chapter-03-05.md)
 
-**Practice Projects:**
-- [ ] Simple calculator
-- [ ] Temperature converter
-- [ ] FizzBuzz implementation
+## Adding New Chapter Code
 
-## Phase 2: Understanding Ownership (Chapters 4-6)
-- [x] Chapter 4: Understanding Ownership
-  - [x] [What is Ownership?](notes/chapter-04-01.md)
-  - [ ] References and Borrowing
-  - [ ] The Slice Type
-- [ ] Chapter 5: Using Structs to Structure Related Data
-  - [ ] Defining and Instantiating Structs
-  - [ ] Method Syntax
-- [ ] Chapter 6: Enums and Pattern Matching
-  - [ ] Defining an Enum
-  - [ ] The match Control Flow Construct
-  - [ ] Concise Control Flow with if let
+Create new example: `examples/chXX_YY_topic.rs`
 
-**Practice Projects:**
-- Rectangle calculator with structs
-- Simple inventory system
-- Basic command-line parser
+```rust
+use rust_book_examples::print_chapter_header;
 
-## Phase 3: Growing Projects (Chapters 7-10)
-- [ ] Chapter 7: Managing Growing Projects with Packages, Crates, and Modules
-- [ ] Chapter 8: Common Collections
-  - [ ] Vectors
-  - [ ] Strings
-  - [ ] Hash Maps
-- [ ] Chapter 9: Error Handling
-  - [ ] Unrecoverable Errors with panic!
-  - [ ] Recoverable Errors with Result
-- [ ] Chapter 10: Generic Types, Traits, and Lifetimes
+fn main() {
+    print_chapter_header("Chapter X.Y", "Topic Name");
+    
+    // Your chapter code here
+}
+```
 
-**Practice Projects:**
-- Text processing tool
-- File organizer
-- Simple web scraper
+Test: `cargo run --example chXX_YY_topic`
 
-## Phase 4: Advanced Features (Chapters 11-16)
-- [ ] Chapter 11: Writing Automated Tests
-- [ ] Chapter 12: An I/O Project: Building a Command Line Program
-- [ ] Chapter 13: Functional Language Features: Iterators and Closures
-- [ ] Chapter 14: More about Cargo and Crates.io
-- [ ] Chapter 15: Smart Pointers
-- [ ] Chapter 16: Fearless Concurrency
+## RustRover Setup
 
-**Practice Projects:**
-- CLI tool with proper error handling
-- Multithreaded file processor
-- Simple HTTP client
+**Fast Development:**
+- Create run configuration: `cargo run --example ch04_01_ownership`
+- Enable "Run cargo check on save" in Rust settings
+- Use `cargo check --example <name>` for syntax checking
 
-## Phase 5: Advanced Topics (Chapters 17-20)
-- [ ] Chapter 17: Object-Oriented Programming Features of Rust
-- [ ] Chapter 18: Patterns and Matching
-- [ ] Chapter 19: Advanced Features
-- [ ] Chapter 20: Final Project: Building a Multithreaded Web Server
+## Learning Phases
 
-**Final Projects:**
-- Web server implementation
-- Complete application of your choice
+**Current Examples Ready:**
+- ✅ `ch02_guessing_game` - Interactive number guessing
+- ✅ `ch03_01_variables` - Variable binding and shadowing
+- ✅ `ch03_02_data_types` - Scalar and compound types
+- ✅ `ch03_03_functions` - Function syntax and parameters
+- ✅ `ch03_05_control_flow` - if, loop, while, for
+- ✅ `ch04_01_ownership` - Move semantics and ownership rules
 
-## Daily Practice Schedule
-- **Week 1-2:** Phase 1 (30-45 min/day)
-- **Week 3-4:** Phase 2 (45-60 min/day)
-- **Week 5-6:** Phase 3 (60 min/day)
-- **Week 7-8:** Phase 4 (60-75 min/day)
-- **Week 9-10:** Phase 5 (60-90 min/day)
+**Next Steps:** See [NEXT_STEPS.md](notes/NEXT_STEPS.md) for prioritized learning tasks
 
 ## Resources
 - [The Rust Programming Language Book](https://doc.rust-lang.org/book/)

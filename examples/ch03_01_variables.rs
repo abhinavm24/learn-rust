@@ -1,4 +1,7 @@
+use rust_book_examples::print_chapter_header;
+
 fn main() {
+    print_chapter_header("Chapter 3.1", "Variables and Mutability");
     let x = 5;
 
     let x = x + 1;

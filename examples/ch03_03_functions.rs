@@ -1,4 +1,8 @@
+use rust_book_examples::print_chapter_header;
+
 fn main() {
+    print_chapter_header("Chapter 3.3", "Functions");
+    
     println!("Hello, world!");
 
     another_function(12);

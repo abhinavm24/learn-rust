@@ -1,4 +1,8 @@
+use rust_book_examples::print_chapter_header;
+
 fn main() {
+    print_chapter_header("Chapter 3.2", "Data Types");
+    
     println!("Hello, world!");
 
     let guess: u32 = "42".parse().expect("Not a number!");
@@ -12,26 +16,26 @@ fn main() {
 
 
     // addition
-    let sum = 5 + 10;
+    let _sum = 5 + 10;
 
     // subtraction
-    let difference = 95.5 - 4.3;
+    let _difference = 95.5 - 4.3;
 
     // multiplication
-    let product = 4 * 30;
+    let _product = 4 * 30;
 
     // division
-    let quotient = 56.7 / 32.2;
-    let truncated = -5 / 3; // Results in -1
+    let _quotient = 56.7 / 32.2;
+    let _truncated = -5 / 3; // Results in -1
 
     // remainder
-    let remainder = 43 % 5;
+    let _remainder = 43 % 5;
 
 
 
-    let t = true;
+    let _t = true;
 
-    let f: bool = false; // with explicit type annotation
+    let _f: bool = false; // with explicit type annotation
 
 
 

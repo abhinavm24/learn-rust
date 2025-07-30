@@ -1,11 +1,14 @@
 use rand::Rng;
+use rust_book_examples::print_chapter_header;
 use std::cmp::Ordering;
 use std::io;
 
 fn main() {
+    print_chapter_header("Chapter 2", "Programming a Guessing Game");
+    
     println!("Guess the number!");
 
-    let secret_number = rand::rng().random_range(1..=100);
+    let secret_number = rand::thread_rng().gen_range(1..=100);
 
     loop {
         println!("Please input your guess.");
