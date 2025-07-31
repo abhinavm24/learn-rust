@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>About - Graceful Shutdown Server</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; background: #f0f0f0; }
+        .container { background: white; padding: 30px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        h1 { color: #d73502; }
+        .nav { margin: 20px 0; }
+        .nav a { margin-right: 15px; color: #d73502; text-decoration: none; padding: 5px 10px; border-radius: 3px; }
+        .nav a:hover { background: #d73502; color: white; }
+        .timeline { background: #f8f9fa; padding: 20px; border-radius: 5px; margin: 20px 0; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>About the Complete Web Server Journey</h1>
+        
+        <div class="nav">
+            <a href="/">Home</a>
+            <a href="/about">About</a>
+            <a href="/shutdown">Shutdown Info</a>
+            <a href="/sleep">Sleep Test</a>
+        </div>
+        
+        <p>This server represents the culmination of our Rust web server journey through Chapter 20.</p>
+        
+        <div class="timeline">
+            <h3>🚀 The Complete Journey</h3>
+            
+            <p><strong>Chapter 20.1:</strong> Single-Threaded Server (Port 7878)</p>
+            <ul>
+                <li>Basic TCP socket programming</li>
+                <li>HTTP request/response handling</li>
+                <li>Sequential request processing</li>
+                <li>Performance limitations identified</li>
+            </ul>
+            
+            <p><strong>Chapter 20.2:</strong> Multithreaded Server (Port 7879)</p>
+            <ul>
+                <li>Thread pool implementation</li>
+                <li>Concurrent request processing</li>
+                <li>Channel-based job distribution</li>
+                <li>Improved performance and responsiveness</li>
+            </ul>
+            
+            <p><strong>Chapter 20.3:</strong> Graceful Shutdown (Port 7880) - <em>You are here!</em></p>
+            <ul>
+                <li>Drop trait implementation</li>
+                <li>Message-based worker termination</li>
+                <li>Proper resource cleanup</li>
+                <li>Production-ready shutdown process</li>
+            </ul>
+        </div>
+        
+        <h2>Key Concepts Learned</h2>
+        <ul>
+            <li><strong>Network Programming:</strong> TCP sockets and HTTP protocol</li>
+            <li><strong>Concurrency:</strong> Thread pools and message passing</li>
+            <li><strong>Resource Management:</strong> RAII and Drop trait</li>
+            <li><strong>Systems Programming:</strong> Building robust server applications</li>
+        </ul>
+        
+        <h2>Production Considerations</h2>
+        <p>While this server demonstrates core concepts, production servers would also include:</p>
+        <ul>
+            <li>Signal handling (SIGTERM, SIGINT)</li>
+            <li>Configuration management</li>
+            <li>Logging and monitoring</li>
+            <li>Security features (HTTPS, input validation)</li>
+            <li>Load balancing and scaling</li>
+        </ul>
+        
+        <h2>Next Steps</h2>
+        <p>This completes the Rust Book's final project! You've learned how to:</p>
+        <ul>
+            <li>Build systems-level applications</li>
+            <li>Handle concurrency safely</li>
+            <li>Manage resources properly</li>
+            <li>Create production-ready code</li>
+        </ul>
+        
+        <p>Consider exploring Rust web frameworks like Actix-web, Warp, or Axum for production web development!</p>
+        
+        <p><small>Final chapter completed! 🎉 | Chapter 20.3 | Rust Journey Complete</small></p>
+    </div>
+</body>
+</html>

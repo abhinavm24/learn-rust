@@ -1,7 +1,307 @@
 [package]
 name = "rust-book-examples"
 version = "0.1.0"
-edition = "2024"
+edition = "2021"
 
 [dependencies]
-rand = "0.8.5"
+rand = "0.8"
+
+# Chapter 1: Getting Started
+[[example]]
+name = "ch01_hello_world"
+path = "examples/ch01_hello_world.rs"
+
+# Chapter 2: Programming a Guessing Game
+[[example]]
+name = "ch02_guessing_game"
+path = "examples/ch02_guessing_game.rs"
+
+# Chapter 3: Common Programming Concepts
+[[example]]
+name = "ch03_01_variables"
+path = "examples/ch03_01_variables.rs"
+
+[[example]]
+name = "ch03_02_data_types"
+path = "examples/ch03_02_data_types.rs"
+
+[[example]]
+name = "ch03_03_functions"
+path = "examples/ch03_03_functions.rs"
+
+[[example]]
+name = "ch03_04_comments"
+path = "examples/ch03_04_comments.rs"
+
+[[example]]
+name = "ch03_05_control_flow"
+path = "examples/ch03_05_control_flow.rs"
+
+# Chapter 4: Understanding Ownership
+[[example]]
+name = "ch04_01_ownership"
+path = "examples/ch04_01_ownership.rs"
+
+[[example]]
+name = "ch04_02_references_borrowing"
+path = "examples/ch04_02_references_borrowing.rs"
+
+[[example]]
+name = "ch04_03_slices"
+path = "examples/ch04_03_slices.rs"
+
+# Chapter 5: Using Structs to Structure Related Data
+[[example]]
+name = "ch05_01_defining_structs"
+path = "examples/ch05_01_defining_structs.rs"
+
+[[example]]
+name = "ch05_02_example_structs"
+path = "examples/ch05_02_example_structs.rs"
+
+[[example]]
+name = "ch05_03_method_syntax"
+path = "examples/ch05_03_method_syntax.rs"
+
+# Chapter 6: Enums and Pattern Matching
+[[example]]
+name = "ch06_01_defining_enums"
+path = "examples/ch06_01_defining_enums.rs"
+
+[[example]]
+name = "ch06_02_match_control_flow"
+path = "examples/ch06_02_match_control_flow.rs"
+
+[[example]]
+name = "ch06_03_if_let"
+path = "examples/ch06_03_if_let.rs"
+
+# Chapter 7: Managing Growing Projects with Packages, Crates, and Modules
+[[example]]
+name = "ch07_01_packages_crates"
+path = "examples/ch07_01_packages_crates.rs"
+
+[[example]]
+name = "ch07_02_defining_modules"
+path = "examples/ch07_02_defining_modules.rs"
+
+[[example]]
+name = "ch07_03_module_paths"
+path = "examples/ch07_03_module_paths.rs"
+
+[[example]]
+name = "ch07_04_bringing_paths_into_scope"
+path = "examples/ch07_04_bringing_paths_into_scope.rs"
+
+[[example]]
+name = "ch07_05_separating_modules"
+path = "examples/ch07_05_separating_modules.rs"
+
+# Chapter 8: Common Collections
+[[example]]
+name = "ch08_01_vectors"
+path = "examples/ch08_01_vectors.rs"
+
+[[example]]
+name = "ch08_02_strings"
+path = "examples/ch08_02_strings.rs"
+
+[[example]]
+name = "ch08_03_hash_maps"
+path = "examples/ch08_03_hash_maps.rs"
+
+# Chapter 9: Error Handling
+[[example]]
+name = "ch09_01_unrecoverable_errors_panic"
+path = "examples/ch09_01_unrecoverable_errors_panic.rs"
+
+[[example]]
+name = "ch09_02_recoverable_errors"
+path = "examples/ch09_02_recoverable_errors.rs"
+
+[[example]]
+name = "ch09_03_to_panic_or_not"
+path = "examples/ch09_03_to_panic_or_not.rs"
+
+# Chapter 10: Generic Types, Traits, and Lifetimes
+[[example]]
+name = "ch10_01_generic_data_types"
+path = "examples/ch10_01_generic_data_types.rs"
+
+[[example]]
+name = "ch10_02_traits"
+path = "examples/ch10_02_traits.rs"
+
+[[example]]
+name = "ch10_03_lifetime_syntax"
+path = "examples/ch10_03_lifetime_syntax.rs"
+
+# Chapter 11: Writing Automated Tests
+[[example]]
+name = "ch11_01_writing_tests"
+path = "examples/ch11_01_writing_tests.rs"
+
+[[example]]
+name = "ch11_02_controlling_tests"
+path = "examples/ch11_02_controlling_tests.rs"
+
+[[example]]
+name = "ch11_03_test_organization"
+path = "examples/ch11_03_test_organization.rs"
+
+# Chapter 12: An I/O Project: Building a Command Line Program
+[[example]]
+name = "ch12_01_accepting_cli_args"
+path = "examples/ch12_01_accepting_cli_args.rs"
+
+[[example]]
+name = "ch12_02_reading_files"
+path = "examples/ch12_02_reading_files.rs"
+
+[[example]]
+name = "ch12_03_refactoring_modularity"
+path = "examples/ch12_03_refactoring_modularity.rs"
+
+[[example]]
+name = "ch12_04_tdd_development"
+path = "examples/ch12_04_tdd_development.rs"
+
+[[example]]
+name = "ch12_05_environment_variables"
+path = "examples/ch12_05_environment_variables.rs"
+
+# Chapter 13: Functional Language Features: Iterators and Closures
+[[example]]
+name = "ch13_01_closures"
+path = "examples/ch13_01_closures.rs"
+
+[[example]]
+name = "ch13_02_iterators"
+path = "examples/ch13_02_iterators.rs"
+
+[[example]]
+name = "ch13_03_improving_io_project"
+path = "examples/ch13_03_improving_io_project.rs"
+
+[[example]]
+name = "ch13_04_performance_comparison"
+path = "examples/ch13_04_performance_comparison.rs"
+
+# Chapter 14: More about Cargo and Crates.io
+[[example]]
+name = "ch14_01_release_profiles"
+path = "examples/ch14_01_release_profiles.rs"
+
+[[example]]
+name = "ch14_02_publishing_crates"
+path = "examples/ch14_02_publishing_crates.rs"
+
+[[example]]
+name = "ch14_03_cargo_workspaces"
+path = "examples/ch14_03_cargo_workspaces.rs"
+
+[[example]]
+name = "ch14_04_installing_binaries"
+path = "examples/ch14_04_installing_binaries.rs"
+
+[[example]]
+name = "ch14_05_extending_cargo"
+path = "examples/ch14_05_extending_cargo.rs"
+
+# Chapter 15: Smart Pointers
+[[example]]
+name = "ch15_01_smart_pointers"
+path = "examples/ch15_01_smart_pointers.rs"
+
+[[example]]
+name = "ch15_02_deref_trait"
+path = "examples/ch15_02_deref_trait.rs"
+
+[[example]]
+name = "ch15_03_drop_trait"
+path = "examples/ch15_03_drop_trait.rs"
+
+[[example]]
+name = "ch15_04_rc_smart_pointer"
+path = "examples/ch15_04_rc_smart_pointer.rs"
+
+[[example]]
+name = "ch15_05_refcell_interior_mutability"
+path = "examples/ch15_05_refcell_interior_mutability.rs"
+
+[[example]]
+name = "ch15_06_reference_cycles"
+path = "examples/ch15_06_reference_cycles.rs"
+
+# Chapter 16: Fearless Concurrency
+[[example]]
+name = "ch16_01_threads"
+path = "examples/ch16_01_threads.rs"
+
+[[example]]
+name = "ch16_02_message_passing"
+path = "examples/ch16_02_message_passing.rs"
+
+[[example]]
+name = "ch16_03_shared_state"
+path = "examples/ch16_03_shared_state.rs"
+
+# Chapter 17: Object Oriented Programming Features of Rust
+[[example]]
+name = "ch17_01_oop_characteristics"
+path = "examples/ch17_01_oop_characteristics.rs"
+
+[[example]]
+name = "ch17_02_trait_objects"
+path = "examples/ch17_02_trait_objects.rs"
+
+[[example]]
+name = "ch17_03_oop_implementations"
+path = "examples/ch17_03_oop_implementations.rs"
+
+# Chapter 18: Patterns and Matching
+[[example]]
+name = "ch18_01_pattern_locations"
+path = "examples/ch18_01_pattern_locations.rs"
+
+[[example]]
+name = "ch18_02_pattern_refutability"
+path = "examples/ch18_02_pattern_refutability.rs"
+
+[[example]]
+name = "ch18_03_pattern_syntax"
+path = "examples/ch18_03_pattern_syntax.rs"
+
+# Chapter 19: Advanced Features
+[[example]]
+name = "ch19_01_unsafe_rust"
+path = "examples/ch19_01_unsafe_rust.rs"
+
+[[example]]
+name = "ch19_02_advanced_traits"
+path = "examples/ch19_02_advanced_traits.rs"
+
+[[example]]
+name = "ch19_03_advanced_types"
+path = "examples/ch19_03_advanced_types.rs"
+
+[[example]]
+name = "ch19_04_advanced_functions"
+path = "examples/ch19_04_advanced_functions.rs"
+
+[[example]]
+name = "ch19_05_macros"
+path = "examples/ch19_05_macros.rs"
+
+# Chapter 20: Final Project: Building a Multithreaded Web Server
+[[example]]
+name = "ch20_01_single_threaded"
+path = "examples/ch20_01_single_threaded.rs"
+
+[[example]]
+name = "ch20_02_multithreaded"
+path = "examples/ch20_02_multithreaded.rs"
+
+[[example]]
+name = "ch20_03_graceful_shutdown"
+path = "examples/ch20_03_graceful_shutdown.rs"
